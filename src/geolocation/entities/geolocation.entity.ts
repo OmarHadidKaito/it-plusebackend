@@ -8,6 +8,9 @@ export class Geolocation {
   @Column()
   address: string;
 
+  @Column({ nullable: true })
+  email: string;
+
   @Column('float')
   latitude: number;
 
